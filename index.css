@@ -1,0 +1,46 @@
+body {
+    background-color: #ecf0f1;
+    margin: 0;
+}
+
+/* Remove bullets */
+/* Set navbar color */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e40046;
+}
+
+/* Move the links next to eachother */
+/* Add a border to the right of each link */
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+/* Make the entire link area clickable */
+.nav_item {
+    display: block;
+    color: white;
+    font: 1em "Bookman", Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Darken background-color when mouse hovers */
+.nav_item:hover {
+    background-color: #b30036;
+}
+
+.card{
+    display:inline-block;
+    position:relative;
+    margin:15px 100px 15px 100px;
+    
+}
+
+footer{
+}
